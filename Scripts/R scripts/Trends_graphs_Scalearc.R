@@ -1,4 +1,4 @@
-data1 = read.csv(file = "C:\\Users\\gs-1268.GSLAB\\Desktop\\file2.csv",header = TRUE,sep = ",")
+data1 = read.csv(file = "C:\\Users\\Desktop\\file2.csv",header = TRUE,sep = ",")
 data1
 var1=data1$X1
 var2=data1$X2
