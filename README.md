@@ -1,6 +1,6 @@
 #Performance benchmarking of MySQL NDB cluster with ScaleArc cache using SysBench
 
-This project measures the performance impact of [ScaleArc](http://www.scalearc.com/) as a cache for a MySQL NDB cluster. The tests were performed by GS lab with the [SysBench](https://wiki.mikejung.biz/Sysbench#Sysbench_0.5_OLTP_Read_Only_Test) benchmark. 
+This project measures the performance impact of [ScaleArc](http://www.scalearc.com/) as a cache for a MySQL NDB cluster. The tests were performed by GS lab with the [SysBench](https://wiki.mikejung.biz/Sysbench#Sysbench_0.5_OLTP_Read_Only_Test) OLTP benchmark. 
 
 The accompanying white paper [``Whitepaper_ScaleArc_MySQLNDBcluster.pdf``](./Whitepaper_ScaleArc_MySQLNDBcluster.pdf) describes the details of this exercise including the test environment, process, experiments, tools, and the test results.
 
