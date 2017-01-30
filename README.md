@@ -1,15 +1,14 @@
-#ScaleArc_MySQL_perf_benchmark
+#Performance benchmarking of MySQL NDB cluster with ScaleArc cache using SysBench
 
-``Whitepaper_ScaleArc_MySQLNDBcluster.pdf``
-this white paper is aimed at measuring the benefits  of use of ScaleArc with MySql NDB cluster for performance improvement using caching mechanism in ScaleArc. The tests were done at GS lab environment with the use of Sysbench OLTP.lua traffic.
+This project measures the performance impact of ScaleArc as cache for a MySQL NDB cluster. The tests were performed by GS lab with the SysBench benchmark. The accompanying white-paper ``Whitepaper_ScaleArc_MySQLNDBcluster.pdf`` describes the details of this exercise including the test environment, process, experiments, tools, and the test results.
 
-We have made available raw test data, server configurations, R-graph scripts in this repository.
+In this repository, we have made available for reference the supporting artefacts including the raw test data, server configurations, R scripts for graphing.
 
 * Directory tree structure :
-    - MySQL : Details of MySQL NDB -cluster confiugration details for (dataNode, mgmt & sqld)
-    - Results :Test results raw data 
+    - MySQL : Details of the MySQL NDB cluster - configuration for data node, management node and SQL node (sqld).
+    - Results : Raw data for the test results
     - Scripts : R scripts to generate the graphs & sample graphs 
-    - SysBench : SysBench lua scripts 
+    - SysBench : Customised SysBench scripts 
 
 
 
